@@ -40,7 +40,6 @@ function JoinForm() {
       .catch((err) => console.log("err >>>>>>", err));
   };
 
-
   return (
     <JoinFormWrap>
       <Form onSubmit={handleSubmit(onSubmit)}>
@@ -282,7 +281,7 @@ function JoinForm() {
         {/* 회원가입 Button */}
         <JoinBtn>
           <SubmitBtn>신청</SubmitBtn>
-          <Link to="/login">
+          <Link to="/">
             <CancelBtn>취소</CancelBtn>
           </Link>
         </JoinBtn>
